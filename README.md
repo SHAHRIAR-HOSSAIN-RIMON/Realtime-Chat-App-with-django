@@ -38,13 +38,18 @@ djangochat/
 │   ├── asgi.py
 │   └── wsgi.py
 │
-├── templates/              # HTML files
+├── templates/              # HTML templates
 │   ├── home.html           # Room entry page
 │   └── room.html           # Chat interface
 │
-├── db.sqlite3              # Database
-├── manage.py               # Django manager
-└── README.md
+├── images/                 # Screenshots for README
+│   ├── chat1.png           # Screenshot of home.html
+│   └── chat2.png           # Screenshot of room.html
+│
+├── db.sqlite3              # SQLite database
+├── manage.py               # Django management script
+└── README.md               # Project documentation
+
 ```
 
 ---
@@ -106,10 +111,10 @@ http://127.0.0.1:8000/
 ## 📸 Preview
 
 ### 🏠 Home Page
-![Home Page](chat1.png)
+![Home](images/chat1.png)
 
 ### 💬 Chat Room
-![Chat Room](chat2.png)
+![Chat Room](images/chat2.png)
 
 ---
 
